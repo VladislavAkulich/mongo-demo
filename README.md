@@ -12,7 +12,6 @@
 
 ```
 python main/app.py
-
 ```
 
 
@@ -22,5 +21,4 @@ Need to install**locust**tool and run tasks from perf_tests folder
 
 ```
 locust -f perf_tests/<file_name>.py
-
 ```
