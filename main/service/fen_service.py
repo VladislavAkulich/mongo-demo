@@ -16,7 +16,6 @@ def get_all_fens():
 
 
 def get_fen_info(fen):
-    data = None
     with mongo:
         data = mongo.conn.get_database(DEFAULT_DB).test.find_one({'fen': fen})
         del data['_id']
